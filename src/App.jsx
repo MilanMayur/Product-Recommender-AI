@@ -58,6 +58,10 @@ function App() {
                     loading={loading}
                 />
 
+                <p style={{ textAlign: "center", color: "#555", marginBottom: "20px" }}>
+                    ! Only laptop recommendations are available right now.
+                </p>
+
                 {loading ? (
                     <p
                         style={{
